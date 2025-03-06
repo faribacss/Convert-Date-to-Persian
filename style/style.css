@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Cute+Font&family=Inconsolata:wght@200..900&family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: 'negarBold';
+    src: url('../font/Negaar\ Bold.ttf') format('TrueType');
+}
+@font-face {
+    font-family: 'negar';
+    src: url('../font/Negaar\ Regular.ttf') format('TrueType');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +21,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #fffec6;
 }
 
 input{
@@ -20,7 +30,7 @@ input{
     padding: 10px;
     font-size: 35px;
     border-radius: 10px;
-    background-color: #ecdbc9;
+    background-color: #4faff0;
     font-family: "Afacad Flux", sans-serif;
 }
 
@@ -44,6 +54,7 @@ p{
     padding: 20px 25px;
     border-radius: 20px;
     font-size: 25px;
-    font-family: 'Afacad Flux';
+    font-family: 'negar';
     font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
