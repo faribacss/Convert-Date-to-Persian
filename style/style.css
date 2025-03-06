@@ -24,7 +24,7 @@ body{
     background-color: #fffec6;
 }
 
-input{
+.date{
     all: unset;
     margin: 15px;
     padding: 10px;
@@ -50,11 +50,21 @@ button:focus{
 }
 p{
     display: none;
-    margin: 50px;
+    margin: 40px;
     padding: 20px 25px;
     border-radius: 20px;
     font-size: 25px;
     font-family: 'negar';
     font-weight: bold;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.reset{
+    all: unset;
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #B39CC7;
+    font-family: "Afacad Flux", sans-serif;
+    cursor: pointer;
 }
