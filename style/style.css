@@ -61,7 +61,7 @@ p{
 .reset{
     all: unset;
     display: none;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 25px;
     border-radius: 10px;
     background-color: #B39CC7;

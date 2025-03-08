@@ -10,16 +10,15 @@ btn.addEventListener("click", () => {
     p.style.display = "block";
     p.style.backgroundColor = "#FFA570";
     p.innerHTML = `امروز برابر با ${perDate} میباشد.`;
-    reset.style.display = 'block';
-  }
-  else{
+    reset.style.display = "block";
+  } else {
     p.style.display = "block";
     p.style.backgroundColor = "#FAD074";
-    p.innerHTML = `ابتدا تاریخ را انتخاب کنید.`
+    p.innerHTML = `ابتدا تاریخ را انتخاب کنید.`;
   }
 });
 
-reset.addEventListener('click', ()=>{
-    p.style.display = "none";
-    reset.style.display = "none";
-})
+reset.addEventListener("click", () => {
+  p.style.display = "none";
+  reset.style.display = "none";
+});
